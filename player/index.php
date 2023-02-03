@@ -22,7 +22,7 @@
         /* .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
             display: none !important;
         } */
-        .yzmplayer-full-icon span,
+        /* .yzmplayer-full-icon span,
         .yzmplayer-fulloff-icon span {
             background-size: contain !important;
             float: left;
@@ -197,7 +197,7 @@
         }
         css += '</style>';
         //$('head').append(css).addClass("");
-    </script>
+    </script> */
 </head>
 
 <body>
