@@ -2705,7 +2705,7 @@ ul::-webkit-scrollbar-track {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	/* z-index: 10000000001; */
+	z-index: 10000000001;
 	background: #fff;
 }
 
@@ -2784,28 +2784,28 @@ ul::-webkit-scrollbar-track {
 	background: url(https://dp.haiwaikan.com/img/3.jpg) no-repeat;
 	/* background: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519223501.gif) no-repeat;
 	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224135.gif); */
-	width: 80px;
-	height: 115px;
+	width: 100%;
+	height: 100%;
 	background-size: 100%;
 	margin: 0 auto;
 	position: absolute;
 	/* bottom: 62px; */
 	/* right: 45px; */
-	margin: -65px 0 0 -40px;
+	/* margin: -65px 0 0 -40px; */
 	pointer-events: none;
 	border: 0;
 	border-color: unset;
 	opacity: 1;
 	border-radius: 0;
-	width: 70px;
-	height: 100px;
+	/* width: 70px;
+	height: 100px; */
 	-moz-animation: spinoffPulse .9s infinite linear;
 	-webkit-animation: unset;
 	background-size: 100%;
-	top: 50%;
+	/* top: 50%;
 	left: 50%;
 	height: 110px;
-	width: 80px;
+	width: 80px; */
 }
 
 .loading .tips {
