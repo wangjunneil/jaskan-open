@@ -4,8 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8"><meta name="referrer" content="never">
-    <title>喵33 - 哔哩播放器</title>
-        <meta name="renderer" content="webkit"> <!-- 启用360浏览器的极速模式(webkit) -->
+    <title>街市播放器</title>
+    <meta name="renderer" content="webkit">
     <meta name="theme-color" content="#de698c">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -18,10 +18,10 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/yzmplayer.css?20200622">
     <style>
-/*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/
-.yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
+        /*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/
+        /* .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
             display: none !important;
-        }
+        } */
         .yzmplayer-full-icon span,
         .yzmplayer-fulloff-icon span {
             background-size: contain !important;
@@ -204,7 +204,6 @@
     <div id="player"></div>
     <div id="ADplayer"></div>
     <div id="ADtip"></div>
-    <!--div class="tj"><script type="text/javascript" src="cnzz.com"></script></div-->
     <script>
         var up = {
             "usernum": "<?php include("tj.php"); ?>", //在线人数
