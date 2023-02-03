@@ -20,7 +20,7 @@
     <style>
         /*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/
         .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
-            display: block !important;
+            display: none !important;
         }
         .yzmplayer-full-icon span,
         .yzmplayer-fulloff-icon span {
