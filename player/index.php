@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/yzmplayer.css?20200622">
     <style>
         /*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/
-        .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
+        /* .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
             display: block !important;
         }
         .yzmplayer-full-icon span,
@@ -171,7 +171,7 @@
         .palycon {
             float: left;
             width: 400px;
-        }
+        } */
     </style>
     <script src="js/yzmplayer.js?20201106"></script>
     <script src="js/jquery.min.js"></script>
