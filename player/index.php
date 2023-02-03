@@ -15,7 +15,7 @@
     <meta name="applicable-device" content="mobile">
     <meta name="screen-orientation" content="portrait">
     <meta name="x5-orientation" content="portrait">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://fla.cdn.bosyun.com/upload/site/ger/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/yzmplayer.css?20200622">
     <style>
         /*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/

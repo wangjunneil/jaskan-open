@@ -10,8 +10,6 @@ $password = $_configx['后台密码'];
 
 $cookielock=md5($username.$password);
 
-
-
 $d = new danmu();
 if ($_GET['ac'] == "edit"&&$_COOKIE["zt"]==$cookielock) {
     $cid = $_POST['cid'] ?: showmessage(-1, null);

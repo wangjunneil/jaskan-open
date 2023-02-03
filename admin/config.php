@@ -1,6 +1,6 @@
 <?php
  $yzm =  array (
- 'adminpass' => 'cj5277',//后台密码
+ 'adminpass' => 'Wj7790&&!',//后台密码
  'tips' =>               //出场弹幕提示
   array (
     'time' => '6',
