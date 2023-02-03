@@ -17,12 +17,12 @@
     <meta name="x5-orientation" content="portrait">
     <link rel="shortcut icon" href="https://fla.cdn.bosyun.com/upload/site/ger/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/yzmplayer.css?20200622">
-    <style>
+    <!-- <style>
         /*隐藏页面全屏按钮，隐藏加载动画，隐藏视频信息屏蔽词汇，隐藏弹幕规则*/
         /* .yzmplayer-info-panel-item-title-amount ,#loading-box,.yzmplayer-full .yzmplayer-full-in-icon,#link3-error,.dmrules{
             display: none !important;
         } */
-        /* .yzmplayer-full-icon span,
+        .yzmplayer-full-icon span,
         .yzmplayer-fulloff-icon span {
             background-size: contain !important;
             float: left;
@@ -172,7 +172,7 @@
             float: left;
             width: 400px;
         }
-    </style>
+    </style> -->
     <script src="js/yzmplayer.js?20201106"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/setting.js?20201123"></script>
@@ -197,7 +197,7 @@
         }
         css += '</style>';
         //$('head').append(css).addClass("");
-    </script> */
+    </script>
 </head>
 
 <body>
