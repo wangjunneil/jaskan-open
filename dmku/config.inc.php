@@ -1,6 +1,6 @@
 <?php return [
-    'username'=>'admin',
-    '后台密码' => '123456',
+    'username'=>'wangjun',
+    '后台密码' => 'Wj7790&&!',
     'tips' => [
         'time' => '6',
         'color' => '#fb7299',

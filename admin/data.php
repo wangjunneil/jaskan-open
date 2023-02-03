@@ -1,6 +1,5 @@
 <?php
  $yzm =  array (
-  'danmuon' => 'on',
   'color' => '#00a1d6',
   'logo' => '',
   'trytime' => '3',
@@ -11,22 +10,6 @@
   'ads' => 
   array (
     'state' => 'on',
-    'set' => 
-    array (
-      'state' => '1',
-      'group' => 'null',
-      'pic' => 
-      array (
-        'time' => '3',
-        'img' => '',
-        'link' => '#',
-      ),
-      'vod' => 
-      array (
-        'url' => '/ad.mp4',
-        'link' => '',
-      ),
-    ),
     'pause' => 
     array (
       'pic' => '',
