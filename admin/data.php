@@ -1,5 +1,6 @@
 <?php
  $yzm =  array (
+  'danmuon' => 'on',
   'color' => '#00a1d6',
   'logo' => '',
   'trytime' => '3',
