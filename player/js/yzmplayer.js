@@ -1309,8 +1309,12 @@
 					c = e.index,
 					u = i.$each;
 				e.$value, e.$index;
+
+				// var player_background_image = 'https://fla.cdn.bosyun.com/other/vod-poster-' + Math.floor(Math.random()*5+1) + '.jpg';
+				var player_background_image = 'https://fla.cdn.bosyun.com/other/player-bg-' + Math.floor(Math.random()*5+1) + '.jpg';
+
 				return t +=
-					'<div id="loading-box"><div class="loading"><div class="video-panel-blur-image" style="background: url(https://fla.cdn.bosyun.com/other/vod-poster-' + Math.floor(Math.random()*5+1) + '.jpg) rgb(0, 0, 0);"></div><p class="pic"></p><div class="tips"></div></div><div type="button" id="close" ><div class="playlink"><span id="link1">播放器连接...</span><span id="link1-success">【完成】</span></div><div class="dmlink"><span id="link2">弹幕连接中...</span><span id="link2-success">【完成】</span><span id="link2-error">【失败】</span></div><span class="palycon" id="link3"><e id="link3_tip">等待视频连接中</e><e id="link3-error" style="display:none">【失败】</e><!--d class="wait"><e id="span">3</e>s</d--></span></div></div><div class="yzmplayer-mask"></div>\n<div class="yzmplayer-cplayer"><div class="yzmplayer-showing"><svg aria-hidden="true"><use xlink:href="#icon-play"></use></svg></div><div class="vod-title"><div id="landing-title" class="video-info"><ul class="u-title"><a id="vodlink" href="" target="_blank" ><span class="iconfont icon-back"></span></a><a id="vodtitle"><span></span></a></ul></div></div></div><div class="yzmplayer-video-wrap">\n    ',
+					'<div id="loading-box"><div class="loading"><div class="video-panel-blur-image" style="background: url(' + player_background_image + ') rgb(0, 0, 0);"></div><p class="pic"></p><div class="tips"></div></div><div type="button" id="close" ><div class="playlink"><span id="link1">播放器连接...</span><span id="link1-success">【完成】</span></div><div class="dmlink"><span id="link2">弹幕连接中...</span><span id="link2-success">【完成】</span><span id="link2-error">【失败】</span></div><span class="palycon" id="link3"><e id="link3_tip">等待视频连接中</e><e id="link3-error" style="display:none">【失败】</e><!--d class="wait"><e id="span">3</e>s</d--></span></div></div><div class="yzmplayer-mask"></div>\n<div class="yzmplayer-cplayer"><div class="yzmplayer-showing"><svg aria-hidden="true"><use xlink:href="#icon-play"></use></svg></div><div class="vod-title"><div id="landing-title" class="video-info"><ul class="u-title"><a id="vodlink" href="" target="_blank" ><span class="iconfont icon-back"></span></a><a id="vodtitle"><span></span></a></ul></div></div></div><div class="yzmplayer-video-wrap">\n    ',
 					function(e) {
 						t += e
 					}(n(4)(a)), t += "\n    ", o.logo && (t += '\n    <div class="yzmplayer-logo">\n        <img src="', t += s(o.logo),
