@@ -12,8 +12,8 @@
   array (
     'pause' => 
     array (
-      'pic' => 'https://fla.cdn.bosyun.com/upload/vod/20220303-1/08747783aae4a0cfc026dbbcb60003f4.jpg',
-      'link' => 'https://www.baidu.com',
+      'pic' => 'https://fla.cdn.bosyun.com/ad/red_envelope.jpeg',
+      'link' => 'https://www.jaskan.com',
     ),
   ),
 );
