@@ -1416,11 +1416,11 @@
 					'" value="#9B9B9B">\n                    <span style="background: #9B9B9B"></span>\n                </label>\n          <label>\n                    <input type="radio" name="yzmplayer-danmaku-color-',
 					t += s(c), t +=
 					'" value="#FFFFFF" checked>\n                    <span style="background: #FFFFFF"></span>\n                </label>\n</div>\n                   </div>\n        <input class="yzmplayer-comment-input" type="text" placeholder="',
-					t += s(r("Input danmaku, hit Enter")), t +=
+					t += s(r("发个弹幕见证当下")), t +=
 					'" maxlength="30">\n        <button class="yzmplayer-icon yzmplayer-send-icon" data-balloon="', t += s(r(
 						"Send")), t += '" data-balloon-pos="up">\n            <span class="yzmplayer-icon-content">', t += l.send, t +=
 					'</span>\n        </button>\n<input id="dmtext" dmtype="right" size="27.5px" class="yzm-yzmplayer-comment-input" type="text" placeholder="',
-					t += s(r("Input danmaku, hit Enter")), t +=
+					t += s(r("发个弹幕见证当下")), t +=
 					'" maxlength="30" >\n        <button class="yzmplayer-icon yzm-yzmplayer-send-icon" data-balloon="', t += s(r(
 						"Send")), t +=
 					'" data-balloon-pos="up">发送	</button>\n   </div>\n  </div>\n<div class="yzmplayer-info-panel yzmplayer-info-panel-hide">\n    <div class="yzmplayer-info-panel-close">关闭</div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-version">\n        <span class="yzmplayer-info-panel-item-title">播放器版本</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-fps">\n        <span class="yzmplayer-info-panel-item-title">播放器帧率</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-type">\n        <span class="yzmplayer-info-panel-item-title">视频类型</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-url">\n        <span class="yzmplayer-info-panel-item-title">视频地址</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-resolution">\n        <span class="yzmplayer-info-panel-item-title">视频分辨率</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    <div class="yzmplayer-info-panel-item yzmplayer-info-panel-item-duration">\n        <span class="yzmplayer-info-panel-item-title">视频时长</span>\n        <span class="yzmplayer-info-panel-item-data"></span>\n    </div>\n    ',

@@ -422,12 +422,12 @@ function video_next() {
 	top.location.href = playnext;
 };
 window.onload = function() {
-	var liyih = '<div class="dmrules"><a target="_blank" href="' + dmrule + '">弹幕礼仪 </a></div>';
-	$("div.yzmplayer-comment-box:last").append(liyih);
-	$(".yzmplayer-watching-number").text(usernum);
-	$(".yzmplayer-info-panel-item-title-amount .yzmplayer-info-panel-item-title").html("违规词");
-	for (var i = 0; i < pbgjz.length; i++) {
-		var gjz_html = "<e>" + pbgjz[i] + "</e>";
-		$("#vod-title").append(gjz_html);
-	}
+	// var liyih = '<div class="dmrules"><a target="_blank" href="' + dmrule + '">弹幕礼仪 </a></div>';
+	// $("div.yzmplayer-comment-box:last").append(liyih);
+	// $(".yzmplayer-watching-number").text(usernum);
+	// $(".yzmplayer-info-panel-item-title-amount .yzmplayer-info-panel-item-title").html("违规词");
+	// for (var i = 0; i < pbgjz.length; i++) {
+	// 	var gjz_html = "<e>" + pbgjz[i] + "</e>";
+	// 	$("#vod-title").append(gjz_html);
+	// }
 }

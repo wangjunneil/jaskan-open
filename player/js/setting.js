@@ -418,14 +418,14 @@ var YZM = {
 					}
 				});
 			});
-			var liyih = '<div class="dmrules"><a target="_blank" href="' + config.dmrule + '">弹幕礼仪 </a></div>';
-			$("div.yzmplayer-comment-box:last").append(liyih);
-			$(".yzmplayer-watching-number").text(up.usernum);
-			$(".yzmplayer-info-panel-item-title-amount .yzmplayer-info-panel-item-title").html("违规词");
-			for (var i = 0; i < up.pbgjz.length; i++) {
-				var gjz_html = "<e>" + up.pbgjz[i] + "</e>";
-				$("#vod-title").append(gjz_html);
-			}
+			// var liyih = '<div class="dmrules"><a target="_blank" href="' + config.dmrule + '">弹幕礼仪 </a></div>';
+			// $("div.yzmplayer-comment-box:last").append(liyih);
+			// $(".yzmplayer-watching-number").text(up.usernum);
+			// $(".yzmplayer-info-panel-item-title-amount .yzmplayer-info-panel-item-title").html("违规词");
+			// for (var i = 0; i < up.pbgjz.length; i++) {
+			// 	var gjz_html = "<e>" + up.pbgjz[i] + "</e>";
+			// 	$("#vod-title").append(gjz_html);
+			// }
 			add('.yzmplayer-list-icon', ".yzmplayer-danmu", 'show');
 
 			function add(div1, div2, div3, div4) {
