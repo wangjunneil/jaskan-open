@@ -396,8 +396,8 @@ var YZM = {
 			});
 		},
 		'list': function() {
-			$(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
-				console.log('bbbb');
+			// $(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
+				// console.log('bbbb');
 				// $(".list-show").empty();
 				// $.ajax({
 				// 	url: config.api + "?ac=get&id=" + YZM.id,
@@ -418,7 +418,7 @@ var YZM = {
 				// 		})
 				// 	}
 				// });
-			});
+			// });
 			// var liyih = '<div class="dmrules"><a target="_blank" href="' + config.dmrule + '">弹幕礼仪 </a></div>';
 			// $("div.yzmplayer-comment-box:last").append(liyih);
 			// $(".yzmplayer-watching-number").text(up.usernum);
