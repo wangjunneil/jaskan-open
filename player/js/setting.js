@@ -397,26 +397,27 @@ var YZM = {
 		},
 		'list': function() {
 			$(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
-				$(".list-show").empty();
-				$.ajax({
-					url: config.api + "?ac=get&id=" + YZM.id,
-					success: function(d) {
-						if (d.code == 23) {
-							a = d.danmuku;
-							b = d.name;
-							c = d.danum;
-							$(".danmuku-num").text(c)
-							$(a).each(function(index, item) {
-								l =
-									`<d class="danmuku-list" time="${item[0]}"><li>${YZM.formatTime(item[0])}</li><li title="${item[4]}">${item[4]}</li><li title="用户：${item[3]}  IP地址：${item[5]}">${item[6]}</li><li class="report" onclick="YZM.danmu.report(\'${item[5]}\',\'${b}\',\'${item[4]}\',\'${item[3]}\')">举报</li></d>`
-								$(".list-show").append(l);
-							})
-						}
-						$(".danmuku-list").on("dblclick", function() {
-							YZM.dp.seek($(this).attr("time"))
-						})
-					}
-				});
+				console.log('bbbb');
+				// $(".list-show").empty();
+				// $.ajax({
+				// 	url: config.api + "?ac=get&id=" + YZM.id,
+				// 	success: function(d) {
+				// 		if (d.code == 23) {
+				// 			a = d.danmuku;
+				// 			b = d.name;
+				// 			c = d.danum;
+				// 			$(".danmuku-num").text(c)
+				// 			$(a).each(function(index, item) {
+				// 				l =
+				// 					`<d class="danmuku-list" time="${item[0]}"><li>${YZM.formatTime(item[0])}</li><li title="${item[4]}">${item[4]}</li><li title="用户：${item[3]}  IP地址：${item[5]}">${item[6]}</li><li class="report" onclick="YZM.danmu.report(\'${item[5]}\',\'${b}\',\'${item[4]}\',\'${item[3]}\')">举报</li></d>`
+				// 				$(".list-show").append(l);
+				// 			})
+				// 		}
+				// 		$(".danmuku-list").on("dblclick", function() {
+				// 			YZM.dp.seek($(this).attr("time"))
+				// 		})
+				// 	}
+				// });
 			});
 			// var liyih = '<div class="dmrules"><a target="_blank" href="' + config.dmrule + '">弹幕礼仪 </a></div>';
 			// $("div.yzmplayer-comment-box:last").append(liyih);
@@ -426,7 +427,7 @@ var YZM = {
 			// 	var gjz_html = "<e>" + up.pbgjz[i] + "</e>";
 			// 	$("#vod-title").append(gjz_html);
 			// }
-			add('.yzmplayer-list-icon', ".yzmplayer-danmu", 'show');
+			// add('.yzmplayer-list-icon', ".yzmplayer-danmu", 'show');
 
 			function add(div1, div2, div3, div4) {
 				$(div1).click(function() {
