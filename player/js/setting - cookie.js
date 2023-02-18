@@ -68,7 +68,7 @@ if (vodid != '') {
 	$("#vodtitle").html(vodid + '  第' + vodsid + '话');
 }
 // 通用点击
-add('.yzmplayer-list-icon', ".yzmplayer-danmu", 'show');
+// add('.yzmplayer-list-icon', ".yzmplayer-danmu", 'show');
 
 function add(div1, div2, div3, div4) {
 	$(div1).click(function() {
