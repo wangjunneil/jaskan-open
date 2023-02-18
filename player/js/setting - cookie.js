@@ -298,28 +298,28 @@ if (group == "1") {
 }
 //弹幕列表获取
 
-$(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
-	$(".list-show").empty();
-	$.ajax({
-		url: dmapi + "?ac=get&id=" + dmid,
-		success: function(data) {
-			if (data.code == 23) {
-				var danmaku = data.danmuku;
-				var dantitle = data.name;
-				var danum = data.danum;
-				$(".danmuku-num").text(danum)
-				$(danmaku).each(function(index, item) {
-					var dammulist =
-						`<d class="danmuku-list" time="${item[0]}"><li>${formatTime(item[0])}</li><li title="${item[4]}">${item[4]}</li><li title="用户：${item[3]}  IP地址：${item[5]}">${item[6]}</li><li class="report" onclick="report(\'${item[5]}\',\'${dantitle}\',\'${item[3]}\',\'${item[4]}\')">举报</li></d>`
-					$(".list-show").append(dammulist);
-				})
-			}
-			$(".danmuku-list").on("dblclick", function() {
-				dp.seek($(this).attr("time"))
-			})
-		}
-	});
-});
+// $(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
+// 	$(".list-show").empty();
+// 	$.ajax({
+// 		url: dmapi + "?ac=get&id=" + dmid,
+// 		success: function(data) {
+// 			if (data.code == 23) {
+// 				var danmaku = data.danmuku;
+// 				var dantitle = data.name;
+// 				var danum = data.danum;
+// 				$(".danmuku-num").text(danum)
+// 				$(danmaku).each(function(index, item) {
+// 					var dammulist =
+// 						`<d class="danmuku-list" time="${item[0]}"><li>${formatTime(item[0])}</li><li title="${item[4]}">${item[4]}</li><li title="用户：${item[3]}  IP地址：${item[5]}">${item[6]}</li><li class="report" onclick="report(\'${item[5]}\',\'${dantitle}\',\'${item[3]}\',\'${item[4]}\')">举报</li></d>`
+// 					$(".list-show").append(dammulist);
+// 				})
+// 			}
+// 			$(".danmuku-list").on("dblclick", function() {
+// 				dp.seek($(this).attr("time"))
+// 			})
+// 		}
+// 	});
+// });
 
 //弹幕举报功能
 function report(user, title, cid, text) {
