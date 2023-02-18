@@ -1310,7 +1310,8 @@
 					u = i.$each;
 				e.$value, e.$index;
 
-				$('.yzmplayer-list-icon').click(function() {
+				console.log('1111');
+				$('.yzmplayer-icon .yzmplayer-list-icon').click(function() {
 					console.log('---p');
 				});
 
