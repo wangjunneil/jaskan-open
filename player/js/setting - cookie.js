@@ -298,7 +298,8 @@ if (group == "1") {
 }
 //弹幕列表获取
 
-// $(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
+$(".yzmplayer-list-icon,.yzm-yzmplayer-send-icon").on("click", function() {
+	console.log('aaaaa');
 // 	$(".list-show").empty();
 // 	$.ajax({
 // 		url: dmapi + "?ac=get&id=" + dmid,
@@ -319,7 +320,7 @@ if (group == "1") {
 // 			})
 // 		}
 // 	});
-// });
+});
 
 //弹幕举报功能
 function report(user, title, cid, text) {
